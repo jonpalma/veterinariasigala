@@ -8,7 +8,7 @@
 	</head>
 	<body <?php echo ($p=='index')? 'data-spy="scroll" data-target=".navbar-nav"':'' ?>>		
 		<!-- BEGIN NAVBAR -->
-		<nav class="navbar navbar-default navbar-fixed-top navbar-vet">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-vet" id="nav-vet">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible-nav" aria-expanded="false">

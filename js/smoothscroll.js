@@ -24,6 +24,13 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
  * @author Ariel Flesler
  * @version 2.1.0
  */
+/*
+$(window).on('load',function(){
+	var $body = $('body'),
+		$offset =  $body.css('padding-top');
+		console.log($body.css('padding-top'));
+});*/
+
 ;(function(define) {
 	'use strict';
 

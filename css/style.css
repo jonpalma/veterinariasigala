@@ -374,7 +374,7 @@ footer .border-left p {
 		margin-bottom: 10px;
 	}
 	.carousel-caption img {
-		width: 220px;	
+		width: 300px;	
 	}
 }
 
@@ -398,6 +398,9 @@ footer .border-left p {
 	.sucursales .border-green {
 		border: none;
 		height: auto;
+	}
+	.carousel-caption img {
+		width: 250px;	
 	}
 }
 
@@ -481,14 +484,18 @@ footer .border-left p {
 }
 
 @media (max-width : 480px) {
+	.padding {
+		padding: 50px 10px;
+	}
+	h1, h3 {
+		font-size: 
+	}
 	.first-big {
 		margin-bottom: 0;
-		font-size: 12px;
-	}
-	p.first-big::first-line {
 		font-size: 14px;
 	}
-	.carousel img {
-		
+	p.first-big::first-line {
+		font-size: 20px;
 	}
+	
 }
