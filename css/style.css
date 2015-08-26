@@ -1,0 +1,494 @@
+/*
+Theme Name: Veterinaria Sigala
+Theme URL: http://
+Author: Agencia Mixen
+Author URL: http://mixen.mx/
+Description: Tema para el sitio de Veterinaria Sigala.
+Version: 1.0
+Text Domain: Mixen Communication & Web Technology
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+@import url(http://fonts.googleapis.com/css?family=Mako);
+
+/* BEGIN GENERAL STYLES */
+* {
+	font-family: 'Arimo', sans-serif!important;
+}
+
+body {
+	margin-top: 105px;
+	overflow-x: hidden;
+}
+
+.padding {
+	padding: 100px 10px;
+}
+
+h1, h3 {
+	text-align: center;	
+}
+
+.row img {
+	display: block;
+	margin: 0 auto;
+}
+
+#googleMap {
+    width: 100%;
+    height: 325px;
+    overflow: hidden;
+}
+
+.first-big {
+	color: #f7f7f7;
+	font-size: 25px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+p.first-big::first-line {	
+	font-size: 40px;
+}
+/* END GENERAL STYLES */
+
+/* BEGING CAROUSEL */
+.carousel-inner > .item {
+	max-height: calc(100vh);	
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+	width: 100%;
+}
+/*
+.carousel-caption img {
+	width: 300px;
+	margin-bottom: 30px;
+}
+
+.cow .carousel-caption {
+	margin-left: 150px;
+}
+
+.chicken .carousel-caption {
+	margin-left: 100px;
+	margin-bottom: 80px;
+}
+
+.horse .carousel-caption {
+	margin-left: -200px;
+	margin-right: 500px;
+	margin-bottom: 100px;
+}*/
+
+/* END CAROUSEL */
+
+/* BEGIN NAVBAR */
+.navbar-vet {
+	display: block;
+    margin: 0 auto;
+	height: 105px;
+    background-color: #ffffff;
+	font: 400 13px / 30px Arimo;
+}
+
+.navbar-vet ul {
+	margin-top: 30px;
+}
+
+.navbar-nav {
+	margin-left: 5%;
+}
+
+.navbar-vet li > a{
+	color: #00bcd4!important;
+}
+
+.navbar-vet li > a:hover  {		
+	transition: all 0.2s;
+	border-bottom: #00bcd4 solid 2px;	
+}
+
+.navbar-vet .container {
+	max-width: 1170px;
+	width: 100%;
+}
+
+.navbar-brand {
+	margin-top: 10px;
+}
+
+/* END NAVBAR */
+
+/* BEGIN INDEX */
+/* END INDEX */
+
+/* BEGIN SERVICIOS */
+.servicios h1 {
+	color: #ec768c;
+	font: 400 13.4px / 30px;
+}
+
+.servicios h3 {
+	color: #b0b0b0;
+	font: 400 16.01px / 20px Arimo;
+}
+/* END SERVICIOS */
+
+/* BEGIN NOSOTROS */
+.nosotros {
+	color: #ffffff;
+}
+
+.nosotros h1 {
+	font: 400 13.4px / 30px;
+}
+
+.nosotros p {
+	font: 400 16.01px / 30px Arimo;
+	margin-top: 55px;
+	text-align: center;
+}
+/* END NOSOTROS */
+
+/* BEGIN PRODUCTOS */
+.productos h1 {
+	color: #00bcd4;
+	font: 400 13.4px / 30px;
+}
+
+.productos h3 {
+	color: #b0b0b0;
+	font: 400 16.01px / 30px Arimo;
+}
+/* END PRODUCTOS */
+
+/* BEGIN MARCAS */
+.marcas {
+	color: #fff;	
+}
+
+.marcas h1 {
+	font: 400 13.4px / 30px;
+}
+
+.marcas p {
+	font: 400 16.01px / 30px 'Arimo', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.marcas img {
+	margin-top: 15px;
+}
+/* END MARCAS */
+
+/* BEGIN EQUIPO DE TRABAJO */
+.equipo h1 {
+	color: #ec768c;
+	font: 400 13.4px / 30px;
+}
+
+.equipo h3 {
+	color: #ec768c;
+	font: 400 14.01px / 30px;
+}
+
+.equipo p {
+	color: #b0b0b0;
+	font: 400 14.01px / 30px Arimo;
+}
+
+.equipo .border-right {
+	border-right: #ec768c solid 1px;
+	height: 326px;
+}
+
+.equipo .border-left {
+	border-left: #ec768c solid 1px;
+	height: 326px;
+}
+/* END EQUIPO DE TRABAJO */
+
+/* BEGIN SUCURSALES */
+.sucursales .container {	
+	padding-bottom: 50px;
+}
+
+.sucursales h1 {
+	color: #72c7b7;
+	font: 400 13.4px / 30px;
+}
+
+.sucursales h3 {
+	color: #72c7b7;
+	font: 400 14.01px / 30px;
+}
+
+.sucursales p {
+	text-align: center;
+	color: #b0b0b0;
+	font: 400 14.01px / 30px Arimo;
+}
+
+.sucursales .border-green {
+	border-left: #72c7b7 solid 1px;
+	border-right: #72c7b7 solid 1px;
+	height: 307px;
+}
+/* END SUCURSALES */
+
+/* BEGIN CONTACTO */
+.contacto .container {
+	padding-top: 50px;	
+}
+
+.contacto h1 {
+	color: #ec768c;
+	font: 400 13.4px / 30p;
+}
+
+label {
+	color: #ec768c;
+	font: 400 14.01px / 30px Arimo;
+}
+
+input, textarea {
+	min-height: 46px;
+	width: 100%;
+	border: #ec768c solid 1px;
+	display: block;
+	margin-bottom: 18px;
+	padding: 5px;
+}
+
+textarea {
+	min-height: 213px;
+}
+
+.submit {
+	background-color: #ec768c;
+	border:none;
+	width: 134px;
+	height: 46px;
+	color: #ffffff;
+	float: right;
+}
+
+input:focus ,textarea:focus {
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
+	outline: 0;
+}
+/* END CONTACTO */
+
+/* BEGIN FOOTER */
+footer	{
+	background-color: #00bcd4;	
+	color: #fff;
+}
+
+footer .border-right {
+	border-right: #ffffff solid 1px;
+	padding-right: 30px;
+}
+
+footer .border-right img {
+	float: right;
+}
+
+footer .border-left {
+	border-left: #ffffff solid 1px;
+	padding-left: 30px;
+}
+
+footer .border-left img {
+	display: block;
+	margin-left: 25px;
+}
+
+footer .border-left p {
+	line-height: 2;
+}
+
+.footer-item {
+    margin: 30px 0;
+	height: 175px;
+}
+
+.footer-rights {
+	background-color: #008bb0;
+    min-height: 48px;
+	color: #ffffff;
+	font: 400 12px / 20px Mako;
+	text-align: center;
+}
+
+.footer-rights p {
+    padding-top: 15px;
+	display: block;
+	margin-bottom: 0;
+}
+
+.footer-rights a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.footer-rights a:hover {
+    color: #d9d9d9;
+}
+/* END FOOTER */
+
+/* Parallax CSS */
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    height: auto;
+}
+
+.parallax {
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	z-index: -1; 
+}
+
+.parallax img {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    min-width: 1920px;
+    width: 100%;
+    background-position: center; 
+}
+
+/* Media Queries */
+
+@media (max-width: 1200px) {
+	.first-big {
+		margin-bottom: 10px;
+	}
+	.carousel-caption img {
+		width: 220px;	
+	}
+}
+
+
+@media (max-width: 992px) {	
+	.navbar-nav {
+		margin-left: 0%;
+	}
+	.navbar-brand {		
+		margin-top: 20px;
+	}
+	.navbar-brand img {
+		width: 120px;
+	}
+	.navbar-vet li > a {
+		margin: auto 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 12.06px;
+	}	
+	.sucursales .border-green {
+		border: none;
+		height: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		margin-top: 50px;	
+	}
+	.navbar-vet {
+		height: auto;	
+	}
+	.navbar-brand {
+		margin-top: 0;
+		padding: 0px 15px;
+	}
+	.navbar-brand img {
+		padding-top: 8px;
+	}
+	.contacto .border-left {	
+		border-left: none;
+	}
+	footer .border-left {
+		border-left: none;
+		float: none;
+		text-align: center;
+		padding-left: 0;
+		margin-bottom: 0px;
+	}
+	footer .border-right {
+		border-right: none;
+		float: none;
+	}
+	footer .border-right img {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+	.footer-item {
+		margin: 1;
+		height: 200px;
+	}
+	.navbar-collapse {
+		font-size: 13.10px;
+		position: fixed;
+		right: 2%;
+		background-color: rgba(255,255,255,0.8);
+		width: 250px;
+	}	
+	.navbar-collapse li {
+		width: 130px;
+		margin-left: 100px;
+		text-align: right;
+	}
+	.navbar-vet li > a:hover {
+		background-color: #ededed!important;
+	}
+	.navbar-collapse ul {
+		margin-top: 5px;	
+	}
+	h1, h2 {
+		font-size: 24px;
+	}
+	.sectores-item img {
+		width: 120px;
+	}
+	.container .border-right {
+		border-right: none;
+	}
+	.container .border-left {
+		border-left: none;
+	}
+	footer .border-left img {
+		display: block;
+		margin: 0 auto;
+	}
+	.carousel-indicators {
+		display: none;
+	}
+	.carousel-caption img {
+		display: none;	
+	}
+}
+
+@media (max-width : 480px) {
+	.first-big {
+		margin-bottom: 0;
+		font-size: 12px;
+	}
+	p.first-big::first-line {
+		font-size: 14px;
+	}
+	.carousel img {
+		
+	}
+}
