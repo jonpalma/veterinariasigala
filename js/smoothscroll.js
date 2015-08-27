@@ -24,12 +24,19 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
  * @author Ariel Flesler
  * @version 2.1.0
  */
-/*
+var $offset;
+
 $(window).on('load',function(){
-	var $body = $('body'),
-		$offset =  $body.css('padding-top');
-		console.log($body.css('padding-top'));
-});*/
+	var body = $('body');
+		$offset =  body.css('margin-top');
+		console.log($offset);
+});
+
+$(window).bind("resize", function(){//Adjusts image when browser resized
+	var body = $('body');
+		$offset =  body.css('margin-top');
+		console.log($offset);
+});
 
 ;(function(define) {
 	'use strict';
@@ -246,6 +253,8 @@ $(window).on('load',function(){
         plugin(jQuery);
     }
 }(function($) {
+	 
+		console.log("cuanto? "+$offset);
 	var URI = location.href.replace(/#.*/, ''); // local url without hash
 
 	var $localScroll = $.localScroll = function(settings) {

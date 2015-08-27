@@ -6,13 +6,13 @@
 					</div>
 					<div class="col-sm-6 border-left footer-item">
 						<p>
-							MATRIZ<br>
+							Veterinaria Sigala<br>
 							Ocampo No. 1406<br>
 							Tel. 410-98-09, 415-09-73<br>
 							Chihuahua, México.<br>
 							Síguenos en:<br>
 						</p>
-						<img src="img/content/social/fb.png" alt="facebook">
+						<a href="#"><img src="img/content/social/fb.png" alt="facebook"></a>
 					</div>
 				</div>
 			</div>

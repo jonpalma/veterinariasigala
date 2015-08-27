@@ -21,6 +21,11 @@ body {
 	overflow-x: hidden;
 }
 
+/*
+body .container {
+	overflow-x: hidden;
+}*/
+
 .padding {
 	padding: 100px 10px;
 }
@@ -199,11 +204,20 @@ p.first-big::first-line {
 .equipo p {
 	color: #b0b0b0;
 	font: 400 14.01px / 30px Arimo;
+	text-align: center;
+}
+
+.equipo .row {
+	margin-top: 40px;
+}
+
+.equipo img {
+	margin-top: 20px;	
 }
 
 .equipo .border-right {
 	border-right: #ec768c solid 1px;
-	height: 326px;
+	height: 326px;	
 }
 
 .equipo .border-left {
@@ -321,11 +335,12 @@ footer .border-left p {
 	background-color: #008bb0;
     min-height: 48px;
 	color: #ffffff;
-	font: 400 12px / 20px Mako;
 	text-align: center;
 }
 
-.footer-rights p {
+.footer-rights p {	
+	font-family: 'Mako', sans-serif;
+	font-size: 12px!important;
     padding-top: 15px;
 	display: block;
 	margin-bottom: 0;
@@ -460,7 +475,7 @@ footer .border-left p {
 		margin-top: 5px;	
 	}
 	h1, h2 {
-		font-size: 24px;
+		font-size: 28px;
 	}
 	.sectores-item img {
 		width: 120px;
@@ -475,11 +490,18 @@ footer .border-left p {
 		display: block;
 		margin: 0 auto;
 	}
+	/*
 	.carousel-indicators {
 		display: none;
-	}
+	}*/
 	.carousel-caption img {
 		display: none;	
+	}
+	.marcas p {
+		margin-bottom: 50px;
+	}
+	.marcas img {
+		max-width: 60%;
 	}
 }
 
@@ -487,8 +509,11 @@ footer .border-left p {
 	.padding {
 		padding: 50px 10px;
 	}
-	h1, h3 {
-		font-size: 
+	h1 {
+		font-size: 18px;
+	}
+	h3, p {
+		font-size: 14px!important;
 	}
 	.first-big {
 		margin-bottom: 0;
@@ -497,5 +522,10 @@ footer .border-left p {
 	p.first-big::first-line {
 		font-size: 20px;
 	}
-	
+	footer img {
+		max-width: 90%;
+	}
+	.navbar-collapse ul {
+		margin-right: 0px;
+	}
 }

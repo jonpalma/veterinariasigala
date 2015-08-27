@@ -16,7 +16,6 @@ function initialize() {
         map: map,
         title: 'Veterinaria Sigala'
     });
-    map.setOptions({styles: styles});
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 
