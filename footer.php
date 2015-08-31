@@ -1,19 +1,7 @@
 		<footer>
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 border-right footer-item">
-						<img src="img/logo-footer.png" alt="logo">
-					</div>
-					<div class="col-sm-6 border-left footer-item">
-						<p>
-							Veterinaria Sigala<br>
-							Ocampo No. 1406<br>
-							Tel. 410-98-09, 415-09-73<br>
-							Chihuahua, México.<br>
-							Síguenos en:<br>
-						</p>
-						<a href="#"><img src="img/content/social/fb.png" alt="facebook"></a>
-					</div>
+				<div class="row footer-item">
+					<img src="img/logo-footer.png" alt="logo">
 				</div>
 			</div>
 			<div class="footer-rights">

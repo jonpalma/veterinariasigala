@@ -3,7 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width" />
+		<meta name="keywords" content="veterinaria, sigala, animales, granja, vacunas, consulta, servicios médicos, desparasitantes, alimento, antibióticos, médicos, estética">
 		<title>Veterinaria Sigala</title>
+		
+		<link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+		
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">	
 	</head>
@@ -18,11 +22,11 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand smoothScroll" href="#inicio"><img src="img/logo.png" alt="Veterinaria Sigala"></a>
+					<a class="navbar-brand smoothScroll" href="index.php#inicio"><img src="img/logo.png" alt="Veterinaria Sigala"></a>
 				</div>
 				<div id="collapsible-nav" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav pull-right">
-						<li class="active"><a href="<?php echo ($p=='index')? '#inicio':'index.php' ?>" class="smoothScroll">Inicio</a></li>
+						<li><a href="<?php echo ($p=='index')? '#inicio':'index.php' ?>" class="smoothScroll">Inicio</a></li>
 						<li><a href="<?php echo ($p=='index')? '#servicios':'index.php' ?>" class="smoothScroll">Servicios</a></li>
 						<li><a href="<?php echo ($p=='index')? '#nosotros':'index.php' ?>" class="smoothScroll">Nosotros</a></li>						
 						<li><a href="<?php echo ($p=='index')? '#sucursales':'index.php' ?>" class="smoothScroll">Sucursales</a></li>

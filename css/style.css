@@ -21,13 +21,9 @@ body {
 	overflow-x: hidden;
 }
 
-/*
-body .container {
-	overflow-x: hidden;
-}*/
-
 .padding {
 	padding: 100px 10px;
+	overflow-x: hidden;
 }
 
 h1, h3 {
@@ -45,6 +41,16 @@ h1, h3 {
     overflow: hidden;
 }
 
+.mapMarker:hover {
+	text-decoration: none;
+	color: #64ad9f;
+	cursor: pointer;
+}
+
+.sucursales h3:hover {
+	color: #549388;
+}
+
 .first-big {
 	color: #f7f7f7;
 	font-size: 25px;
@@ -55,37 +61,65 @@ h1, h3 {
 p.first-big::first-line {	
 	font-size: 40px;
 }
+
+.vertical-align {
+	position: relative;
+	top: 50%;
+	transform: translate(0, 50%) !important;
+  	-ms-transform: translate(0, 50%) !important; /* IE 9 */
+  	-webkit-transform: translate(0, 0%) !important; /* Safari and Chrome */
+}
+
+strong {
+	color: #a8a8a8;	
+}
+
+/* Circular Modals */
+
+.modal {
+	color: #fff;
+    overflow: visible !important;
+}
+
+.modal-dialog {
+	margin-top: 5%;
+}
+
+#circular-modal .modal-content {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+#circular-modal img {
+    width: 30vh;
+    height: auto;
+}
+
+#circular-modal p {
+    font-size: 18px;
+	text-align: center;
+}
+
+#circular-modal .in {
+    background-color: rgba(0,0,0,0.3)
+}
 /* END GENERAL STYLES */
 
 /* BEGING CAROUSEL */
 .carousel-inner > .item {
-	max-height: calc(100vh);	
+	max-height: calc(100vh - 105px);	
 }
 
 .carousel-inner > .item > img {
     margin: 0 auto;
 	width: 100%;
 }
-/*
-.carousel-caption img {
-	width: 300px;
-	margin-bottom: 30px;
-}
 
-.cow .carousel-caption {
-	margin-left: 150px;
+.carousel-control img{
+	display: none;
+	margin-top: 200%
 }
-
-.chicken .carousel-caption {
-	margin-left: 100px;
-	margin-bottom: 80px;
-}
-
-.horse .carousel-caption {
-	margin-left: -200px;
-	margin-right: 500px;
-	margin-bottom: 100px;
-}*/
 
 /* END CAROUSEL */
 
@@ -135,6 +169,10 @@ p.first-big::first-line {
 	font: 400 13.4px / 30px;
 }
 
+.servicios img {
+	cursor: pointer;
+}
+
 .servicios h3 {
 	color: #b0b0b0;
 	font: 400 16.01px / 20px Arimo;
@@ -161,6 +199,10 @@ p.first-big::first-line {
 .productos h1 {
 	color: #00bcd4;
 	font: 400 13.4px / 30px;
+}
+
+.productos img {
+	cursor: pointer;
 }
 
 .productos h3 {
@@ -303,31 +345,8 @@ footer	{
 	color: #fff;
 }
 
-footer .border-right {
-	border-right: #ffffff solid 1px;
-	padding-right: 30px;
-}
-
-footer .border-right img {
-	float: right;
-}
-
-footer .border-left {
-	border-left: #ffffff solid 1px;
-	padding-left: 30px;
-}
-
-footer .border-left img {
-	display: block;
-	margin-left: 25px;
-}
-
-footer .border-left p {
-	line-height: 2;
-}
-
 .footer-item {
-    margin: 30px 0;
+    margin: 30px ;
 	height: 175px;
 }
 
@@ -391,6 +410,9 @@ footer .border-left p {
 	.carousel-caption img {
 		width: 300px;	
 	}
+	.modal-dialog {
+		margin-top: 10%;
+	}
 }
 
 
@@ -416,6 +438,9 @@ footer .border-left p {
 	}
 	.carousel-caption img {
 		width: 250px;	
+	}
+	.modal-dialog {
+		margin-top: 15%;
 	}
 }
 
@@ -503,6 +528,13 @@ footer .border-left p {
 	.marcas img {
 		max-width: 60%;
 	}
+	#circular-modal img {
+		width: 20vh;
+	}
+	.modal-dialog {
+		margin-top: 25%;
+	}
+	
 }
 
 @media (max-width : 480px) {
@@ -527,5 +559,11 @@ footer .border-left p {
 	}
 	.navbar-collapse ul {
 		margin-right: 0px;
+	}
+	.modal-dialog {
+		margin-top: 40%;
+	}
+	.carousel-control img{
+		display: none;
 	}
 }
