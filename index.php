@@ -19,7 +19,7 @@
 				<img src="img/content/carousel/8.jpg" alt="first">
 				<div class="carousel-caption">
 					<img src="img/content/carousel/logo.png" alt="logo">
-					<p class="first-big">Brindamos un exelente trato profesional a nuestos clientes y pacientes</p>
+					<p class="first-big">Brindamos un excelente trato profesional a nuestos clientes y pacientes</p>
 				</div>
 			</div>
 			<div class="item cow">
@@ -40,7 +40,7 @@
 				<img src="img/content/carousel/7.jpg" alt="fifth">
 				<div class="carousel-caption">
 					<img src="img/content/carousel/logo.png" alt="logo">
-					<p class="first-big">Contamos con un amplia gama de insecticidas para fumigar así como para combatir infestaciones de garrapatas en tu mascota</p>
+					<p class="first-big">Contamos con un amplia gama de insecticidas para fumigar, así como para combatir infestaciones de garrapatas en tu mascota</p>
 				</div>
 			</div>
 		</div>
@@ -76,9 +76,9 @@
 					<img src="img/content/servicios/aesthetics.png" alt="estética">
 					<h3>Estética</h3>
 				</div>
-				<div class="col-lg-2 col-sm-6" data-toggle="modal" data-target="#vacunas-modal">
-					<img src="img/content/servicios/syringe.png" alt="vacunas">
-					<h3>Vacunas</h3>
+				<div class="col-lg-2 col-sm-6" data-toggle="modal" data-target="#ultrasonido-modal">
+					<img src="img/content/servicios/syringe.png" alt="ultrasonido">
+					<h3>Ultrasonido</h3>
 				</div>
 				<div class="col-lg-2 col-sm-6" data-toggle="modal" data-target="#ambulancia-modal">
 					<img src="img/content/servicios/ambulance.png" alt="ambulancia">
@@ -159,7 +159,7 @@
 			</div>
 			<div class="col-lg-1"></div>
 			<div class="col-lg-3"></div>
-			<div class="col-lg-3 col-sm-6" data-toggle="modal" data-target="#vacunas2-modal">
+			<div class="col-lg-3 col-sm-6" data-toggle="modal" data-target="#vacunas-modal">
 				<img src="img/content/productos/vaccine.png" alt="vacunas">
 				<h3>Vacunas</h3>
 			</div>
@@ -182,14 +182,15 @@
 			<h1>Marcas</h1>
 			<p>Contamos con los laboratorios más prestigiados y con una gran variedad de productos para todo tipo de animales tanto para pequeñas como para grandes especies, tenemos los precios mas competitivos. El mejor servicio para la buena salud de su mascota.</p>
 			<div class="row">
-				<div class="col-lg-2 col-sm-6">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-1 col-sm-6">
 					<img src="img/content/marcas/chinoin.png" alt="chinoin">
 				</div>
 				<div class="col-lg-3 col-sm-6">
 					<img src="img/content/marcas/royal-canin.png" alt="royal canin">
 				</div>
 				<div class="col-lg-2 col-sm-6">
-					<img src="img/content/marcas/pisa.png" alt="pisa">
+					<img src="img/content/marcas/lapisa.png" alt="Lapisa">
 				</div>
 				<div class="col-lg-2 col-sm-6">
 					<img src="img/content/marcas/merial.png" alt="merial">
@@ -287,7 +288,7 @@
 				<label for="name">NOMBRE</label>
 				<input type="text" id="name" name="name">
 				<label for="patient">PACIENTE</label>
-				<input type="text" id="pacient" name="patient">
+				<input type="text" id="patient" name="patient">
 				<label for="phone">TELÉFONO</label>
 				<input type="text" id="phone" name="phone">
 				<label for="email">EMAIL</label>
@@ -297,9 +298,9 @@
 				<label for="info">COMENTARIO</label>
 				<textarea id="info" cols="30" rows="4" name="info"></textarea>
 				<button class="submit" id="form-submit">Enviar</button>				
-			</div>
-			</form>
-			<div id="form-output"></div>
+				</form>
+				<div id="form-output"></div>		
+			</div>					
 		</div>
 	</div>
 </div>
@@ -367,12 +368,12 @@
 		  </div>
 		</div>
 		
-		<div class="modal fade" id="vacunas-modal">
+		<div class="modal fade" id="ultrasonido-modal">
 		  <div class="modal-dialog">
 			<div class="modal-content" data-dismiss="modal">
 			  <img class="center-block" src="img/content/servicios/healt.png" alt="">
-			  <h1 class="center-text white">Vacunas</h1>
-			  <p class="center-text white">Amplio esquema de vacunación para todo tipo de animal como para la prevención de las enfermedades en tu mascota y también para ganado bobino, equino. Veterinaria Sígala te recomienda llevar un buen esquema de vacunación el cual te evitara problemas de enfermedad que pueden hasta costarle la muerte a tus animales de producción.</p>
+			  <h1 class="center-text white">Ultrasonido</h1>
+			  <p class="center-text white"></p>
 			</div>
 		  </div>
 		</div>
@@ -550,7 +551,7 @@
 		  </div>
 		</div>
   	
-  	<div class="modal fade" id="vacunas2-modal">
+  	<div class="modal fade" id="vacunas-modal">
 		  <div class="modal-dialog">
 			<div class="modal-content" data-dismiss="modal">
 			  <img class="center-block" src="img/content/servicios/healt.png" alt="">

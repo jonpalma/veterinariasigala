@@ -333,6 +333,14 @@ textarea {
 	float: right;
 }
 
+.submit:focus {
+	outline: none;	
+}
+
+.submit:hover {
+	background-color: #c16173;	
+}
+
 input:focus ,textarea:focus {
 	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3);
 	outline: 0;
@@ -561,9 +569,20 @@ footer	{
 		margin-right: 0px;
 	}
 	.modal-dialog {
-		margin-top: 40%;
+		margin-top: 0%;
 	}
 	.carousel-control img{
 		display: none;
+	}
+	.modal-dialog {
+		margin-top: 10%;
+	}
+	#circular-modal h1 {
+		font-size: 14px;
+		line-height: 1;
+	}
+	#circular-modal p {
+		font-size: 12px!important;
+		line-height: 1;
 	}
 }

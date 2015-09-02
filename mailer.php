@@ -71,6 +71,7 @@
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
 		$name = str_replace(array("\r","\n"),array(" "," "),$name);
+		$patient = ($_POST["patient"]);
         $tel = trim($_POST["phone"]);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["info"]);
@@ -101,7 +102,7 @@
         // Build the email content.
         $email_content = "Mensaje enviado desde la forma de contacto de Veterinaria Sigala\n";
         $email_content .= "Nombre: $name\n";
-		$email_content .= "Paciente: $patient\n";
+		$email_content .= "Paciente: $patient\n\n";
         $email_content .= "Tel: $tel\n\n";
         $email_content .= "Email: $email\n\n";
         $email_content .= "Mensaje:\n$message\n";
