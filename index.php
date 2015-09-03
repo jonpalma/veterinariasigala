@@ -226,12 +226,11 @@
 </div>
 <!-- END EQUIPO DE TRABAJO -->
 
-<!-- BEGIN MAP -->
-<section id="googleMap"></section>
-<!-- END MAP-->
-
 <!-- BEGIN SUCURSALES -->
 <div class="sucursales" id="sucursales">
+	<!-- BEGIN MAP -->
+	<section id="googleMap"></section>
+	<!-- END MAP-->
 	<div class="container padding">
 		<h1>Sucursales</h1>
 		<div class="row">
@@ -267,10 +266,10 @@
 					Plaza San Angel No. 1401<br>
 					Tel. 200-09-43, 236-80-11<br>
 					Chihuahua, México.<br>
-					<strong>Lunes a Sábado<br>
+					<span class="bold">Lunes a Sábado<br>
 					8:30am - 12:00 am<br>
 					Domingo<br>
-					10:00 am - 4:00 pm</strong><br>
+					10:00 am - 4:00 pm</span><br>
 				</p>
 			</div>
 		</div>

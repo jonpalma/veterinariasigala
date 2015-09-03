@@ -1,6 +1,23 @@
 $(document).ready(function(){
-	$('.parallax').parallax();		
+	$('.parallax').parallax();
+	$(document).on("scroll", onScroll);
 });
+
+//On scroll change active link in navbar
+function onScroll(event){
+    var scrollPos = $(document).scrollTop()+106;
+    $('#collapsible-nav li').each(function () {
+        var currLink = $(this).children("a");
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#collapsible-nav ul li').removeClass("active");
+			$(this).addClass("active");
+        }
+        else{
+             $(this).removeClass("active");
+        }
+    });
+}
 
 //Ajax contact form
 $(function() {

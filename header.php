@@ -26,13 +26,13 @@
 				</div>
 				<div id="collapsible-nav" class="collapse navbar-collapse">
 					<ul class="nav navbar-nav pull-right">
-						<li><a href="<?php echo ($p=='index')? '#inicio':'index.php' ?>" class="smoothScroll">Inicio</a></li>
+						<li class="active"><a href="<?php echo ($p=='index')? '#inicio':'index.php' ?>" class="smoothScroll">Inicio</a></li>
 						<li><a href="<?php echo ($p=='index')? '#servicios':'index.php' ?>" class="smoothScroll">Servicios</a></li>
-						<li><a href="<?php echo ($p=='index')? '#nosotros':'index.php' ?>" class="smoothScroll">Nosotros</a></li>						
-						<li><a href="<?php echo ($p=='index')? '#sucursales':'index.php' ?>" class="smoothScroll">Sucursales</a></li>
-						<li><a href="<?php echo ($p=='index')? '#marcas':'index.php' ?>" class="smoothScroll">Marcas</a></li>
+						<li><a href="<?php echo ($p=='index')? '#nosotros':'index.php' ?>" class="smoothScroll">Nosotros</a></li>
 						<li><a href="<?php echo ($p=='index')? '#productos':'index.php' ?>" class="smoothScroll">Productos</a></li>
-						<li><a href="<?php echo ($p=='index')? '#equipo':'index.php' ?>" class="smoothScroll">Equipo de Trabajo</a></li>
+						<li><a href="<?php echo ($p=='index')? '#marcas':'index.php' ?>" class="smoothScroll">Marcas</a></li>
+						<li><a href="<?php echo ($p=='index')? '#equipo':'index.php' ?>" class="smoothScroll">Equipo de Trabajo</a></li>				
+						<li><a href="<?php echo ($p=='index')? '#sucursales':'index.php' ?>" class="smoothScroll">Sucursales</a></li>					
 						<li><a href="<?php echo ($p=='index')? '#contacto':'index.php' ?>" class="smoothScroll">Contacto</a></li>
 					</ul>
 				</div>
